@@ -1,0 +1,78 @@
+h2{
+    text-align:center;
+}
+
+.box{
+    width:60px;
+    height:60px;
+    background-color:indigo;
+    margin:10px;
+}
+
+.display-flex{
+    display:flex;
+}
+
+.display-none{
+    display:none;
+}
+
+.visibility-hidden{
+    visibility: hidden;
+}
+
+.display-block{
+    display:none;
+    display:block;
+}
+
+
+/* other display properties */
+
+.display-Inline{
+    background-color: blue;
+    color:#ffff;
+    width:400px;
+    height:400px;
+    display:inline;
+}
+
+.display-block{
+    background-color: red;
+    color:#ffff;
+    width:50px;
+    height:50px;
+    display:block;
+}
+
+.display-inline-block{
+    background-color:red;
+    color:#ffff;
+    width:50px;
+    height:50px;
+    display:inline-block;
+}
+
+
+
+
+
+
+
+/* desktop and mobile 
+Note: we can write multiple properties in @media screen */
+
+.text-clr{
+    color:red;
+    text-align:center;
+}
+
+@media screen and (max-width:600px){
+    .text-clr{
+        color:blue;
+    }
+    .display-none{
+        display: block;
+    }
+}
+

@@ -1,0 +1,18 @@
+h3{
+    text-align:center;
+}
+
+div h2{
+    color:red;
+}
+
+.abc>h4{
+    color:blue;
+}
+
+.abc+h5{
+    color:red;
+}
+.abc~h6{
+    color:indianred;
+}

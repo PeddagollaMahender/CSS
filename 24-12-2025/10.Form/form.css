@@ -1,0 +1,27 @@
+.text-center{
+    text-align:center;
+}
+
+.form-1{
+    border:1px solid #ccc;
+    width:30%;
+    padding:20px;
+    margin:auto;
+
+}
+
+.form-1 div{
+    margin-bottom:25px;
+}
+
+.form-1 label{
+    width:150px;
+    display:inline-block;
+}
+
+.btn-1{
+    background-color:green;
+    color:#ffff;
+    border:1px solid #ccc;
+    padding:10px 30px;
+}

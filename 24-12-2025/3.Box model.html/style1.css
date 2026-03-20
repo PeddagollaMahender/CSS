@@ -1,0 +1,17 @@
+.text-center{
+    text-align:center;
+  
+}
+.text-justify{
+    text-align:justify;
+    border: 10px solid red;
+    margin: 30px;
+    padding:30px;
+}
+
+.Box-Model{
+    text-align:justify;
+    border:15px solid greenyellow;
+    margin:50px 30px  50px 30px;
+    padding:50px 100px 70px 100px;
+}

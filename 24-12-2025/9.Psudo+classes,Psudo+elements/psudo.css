@@ -1,0 +1,78 @@
+h3,h1{
+    text-align:center;
+}
+
+a:active{
+    color:yellow;
+}
+
+a:hover{
+    color:red;
+}
+.text-hover:hover{
+    color:indigo;
+}
+
+.box{
+    width:100px;
+    height:100px;
+    background-color:red;
+}
+
+.box:hover{
+    background-color:green;
+    border-radius:50%;
+    /* border-radius:10px 20px 30px 40px; */
+
+    transition:2s;
+    /* transition:10s; */
+
+
+}
+
+/* <====================Psudo Elements==============> */
+
+/* .aaa{
+    color:red;
+    font-size:50px;
+} */
+
+/* p::first-letter{
+    color:red;
+    font-size:40px;
+} */
+
+
+p::first-line{
+    color:red;
+}
+
+h1::before{
+    content:url(images/small.jpg);
+   
+}
+
+h1::after{
+    content:url(images/small.jpg);
+}
+
+/* ul{
+    color:red;
+} */
+
+::marker{
+    color:red;
+}
+
+/* ::selection{
+    background-color: red;
+    color:#ffff;
+} */
+
+p::selection{
+    background-color: red;
+    color:#ffff;
+}
+
+
+
